@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'pokemonDP';
+  src: url('./assets/pokemon-dp-pro.ttf');
+}
+
+body {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  font-size: 70px;
+  margin: 30px;
+}
+p {
+  font-size: 30px;
+  margin: 0;
+}
+
+#root {
+  font-family: 'pokemonDP';
+  width: 60vw;
+  height: 80vh;
+  margin: 0 0;
+  padding: 2rem;
+  text-align: center;
+  background-image: url('./assets/pokemon-memory-card-background.jpeg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.card {
+  width: 150px;
+  height: 180px;
+  border: 3px solid #0F304F;
+  background-color: #083880;
+  cursor: pointer;
+}
+
+.sprite {
+  width: 60%;
+  border-bottom: 2px solid #1F7898;
+}
